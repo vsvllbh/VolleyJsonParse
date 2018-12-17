@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="15dp"
+    >
+<TextView
+    android:id="@+id/textView"
+    android:gravity="center"
+    android:textColor="@android:color/black"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="25sp"
+    />
+
+    <Button
+        android:id="@+id/parse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="PARSE"
+        android:textSize="30sp"
+        android:onClick="parse"
+        />
+</RelativeLayout>
